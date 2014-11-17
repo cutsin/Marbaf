@@ -1,0 +1,30 @@
+{
+  "name": "GitHubLog",
+  "version": "0.0.1",
+  "description": "HTML only, simply, markdown with gitHub",
+  "main": "index.js",
+  "private": false,
+  "dependencies": {
+    "jade":"cutsin/jade"
+  },
+  "keywords": [
+    "github",
+    "blog",
+    "wordpress",
+    "git wordpress"
+  ],
+  "author": {
+    "name": "Cutsin",
+    "email": "cutsin@gmail.com",
+    "url": "http://moonless.net"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cutsin/githublog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cutsin/githublog/issues"
+  },
+  "homepage": "https://github.com/cutsin/githublog"
+}
