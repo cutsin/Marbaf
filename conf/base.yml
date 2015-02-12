@@ -1,0 +1,9 @@
+
+# 10s
+cycleTimeAwait: 10000
+dir:
+  git: GitHubLog.source
+  cache: GitHubLog.cache
+  site: GitHubLog.site
+  theme: GitHubLog.site/theme
+  essay: GitHubLog.site/essay

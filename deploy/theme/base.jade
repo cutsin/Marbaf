@@ -1,0 +1,11 @@
+var root = theme
+
+mixin doctype()
+	doctype html
+	html
+		meta(name="renderer" content="webkit")
+		meta(charset="utf-8")
+		title #{name}
+		meta(name="description" content="#{description}")
+		link(href="#{root}/g.css" rel="stylesheet" type="text/css")
+	base
