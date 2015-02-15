@@ -1,23 +1,15 @@
 {
-  "name": "GitHubLog",
+  "name": "Marbaf",
   "version": "0.0.1",
-  "description": "HTML only, simply, markdown with gitHub",
+  "description": "markdown blog with git",
   "preferGlobal": "true",
   "bin": {
-    "githublog": "./bin/githublog"
+    "marbaf": "./bin/Marbaf"
   },
   "private": false,
   "scripts": {
     "build": "coffee ./src/build.coffee.md",
     "prepublish": "npm run build"
-  },
-  "dependencies": {
-    "chokidar": "^1.0.0-rc3",
-    "github-markdown-css": "^2.0.3",
-    "jade": "git://github.com/cutsin/jade#1.9.0.optionalTags",
-    "markdown": "^0.5.0",
-    "require-yml": "^1.1.2",
-    "winston": "^0.9.0"
   },
   "keywords": [
     "github",
@@ -33,15 +25,22 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cutsin/githublog.git"
+    "url": "https://github.com/cutsin/Marbaf.git"
   },
   "bugs": {
-    "url": "https://github.com/cutsin/githublog/issues"
+    "url": "https://github.com/cutsin/Marbaf/issues"
   },
-  "homepage": "https://github.com/cutsin/githublog",
-  "devDependencies": {
+  "homepage": "https://github.com/cutsin/Marbaf",
+  "dependencies": {
     "async": "^0.9.0",
-    "request": "^2.53.0",
+    "chokidar": "^1.0.0-rc3",
+    "extend": "^2.0.0",
+    "jade": "git://github.com/cutsin/jade#1.9.0.optionalTags",
+    "js-yaml": "^3.2.6",
+    "markdown": "^0.5.0",
+    "require-yml": "^1.2.0"
+  },
+  "devDependencies": {
     "superagent": "^0.21.0"
   }
 }

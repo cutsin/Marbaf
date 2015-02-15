@@ -14,23 +14,24 @@ var conf = {}
 program
   .version(pkg.version)
   .option('-v', 'get version')
+  .option('-f, --force', 'reset configs')
 
-program.command('init [git-repo-url]')
+program.command('init <git-repo-url> [name] [description]')
   .description('Init in current directory with your git-repo. If omitted, load from .git/config')
-  .action(function(repo){
-    cli.init(repo)
+  .action(function(repo, name, desc){
+    cli(program.force).init(repo, name, desc)
   })
 
 program.command('start')
   .description('start loader')
   .action(function(repo){
-    cli.start()
+    cli().start()
   })
 
-program.command('watch')
-  .description('watch')
+program.command('restart')
+  .description('restart')
   .action(function(repo){
-    cli.watch()
+    cli().start()
   })
 
 

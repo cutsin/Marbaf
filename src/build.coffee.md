@@ -12,7 +12,6 @@
 	file_md = './src/markdown.css'
 	file_base = './src/base.css'
 	file_g = './deploy/theme/g.css'
-	file_loader = './deploy/githublog.js'
 
 	makeCSS = (cb) ->
 
@@ -33,9 +32,3 @@
 		], cb
 
 	makeCSS ->
-
-	makeLoader = ->
-		exec 'cp -f ./lib/loader.js ' + file_loader, () ->
-			console.log 'done'
-
-	makeLoader ->

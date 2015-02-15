@@ -1,9 +1,20 @@
-# GitHublog
+# Marbaf (My Angel Rocks Back and Forth)
 
-## A Really Simple Blog. No Framework, output HTML only, Clearly, Jade base, Markdown source by Github.
+[中文文档](README.zh-CN.md)
 
-### Just 3 steps:
+A Really Simple blog base on git. No Framework, output HTML only, Clearly, Jade base, Markdown source by Github.
 
-1. write articles with github 
-2. modify package.json
-3. run at localhost
+## Usage
+
+1. Make your essay on gitHub/bitBucket/gitCafe/Coding etc.
+2. Install & Run `marbaf start` on your server.
+
+## Test
+
+```
+npm test
+```
+
+## License
+
+[MIT](LICENSE)
